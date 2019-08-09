@@ -6,7 +6,7 @@
 
 body { 
     font-size: 16px; 
-    line-height: 32px;
+    line-height: 34px;
     font-family:Ubuntu,sans-serif;
     color:#381043;
 }
@@ -25,12 +25,12 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color:#8A6694;
+    background-color:#920b55;
     color: whitesmoke;
 }
 
