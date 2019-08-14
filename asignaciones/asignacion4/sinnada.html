@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>DASER-GuiaTuristica</title>
+  <link rel="stylesheet" href="css/stilos.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/largestyle.css" rel="=stylesheet">
+  <link rel="stylesheet" href="css/smallstyle.css" rel="=stylesheet">
+
   <meta name="description" content="Guia turistica de Copacabana y Villa Tunari de Bolivia">
   
 </head>
@@ -11,34 +15,51 @@
     <header>
         
             <div class="encabezado">
+              
               <div class="logo">
-                <img src="imagenes/AA.png" alt=" Imagen" width="100" height="100">
-              </div><h1>Guia turistica de Copacabana y Villa Tunari</h1>
-            <h2>Ven y diviertete!  </h2>
-          
+                  <img src="imagenes/AA.png" alt=" Imagen" width="250" height="200">
+              </div>
+              <div class="titulo"> 
+                  <h1>Guia turistica de Copacabana y Villa Tunari</h1>
+                </div>
+                <div class="subtitulo">
+                    <h2>Ven y diviertete!  </h2>
+                </div>
+            
         </div>
           
           <nav>
           
             <ul>
               <li><a href="#" class="current">Home</a></li>
-              <li><a href="#">Destinos</a>
-                  <ul>
-                     <li><a href="Copacabana">Copacabana</a></li>
-                     <li> <a href="VillaT">Villa Tunari</a></li>
+              <li class="submenu">
+                <a href="#"> <span class="icon-rocket"></span> Destinos <span class="caret icon-arrow-down6"></span></a>
+                  <ul class="children">
+                     <li><a href="#">Copacabana<span class="icon-dot"></span></a></li>
+                     <li> <a href="#">Villa Tunari<span class="icon-dot"></span></a></li>
                     </ul>
               </li>
-              <li><a href="#/">Reservas</a>
-                  <ul>
-                     <li><a href="Reserva">Alojamiento</a></li>
+              <li class="submenu">
+                <a href="#"> <span class="icon-rocket"></span> Reservas <span class="caret icon-arrow-down6"></span></a>
+                  <ul class="children">
+                     <li><a href="Reserva"> Alojamiento <span class="icon-dot"></span></a></li>
                   </ul>
                 </li>
-              <li><a href="#/">Servicios</a>
-                  <ul>
-                     <li><a href="#">Copacabana</a>
-                      <ul><li><a href="PaseoB/">Paseo en  Botes</a></li></ul></li>
-                     <li><a href="#">Villa Tunari</a>
-                      <ul><li><a href="Mirador/">Visita al Mirador</a></li></ul>
+              <li class="submenu">
+                <a href="#"> Servicios</a>
+                  <ul class="children">
+                     <li class="submenu">
+                       <a href="#">  <span class="icon-rocket"></span>Copacabana <span class="caret icon-arrow-down6"></span></a>
+                      <ul class="children">
+                        <li><a href="PaseoB/">Paseo en  Botes  <span class="icon-dot"></span></a></li>
+                      </ul>
+                      </li>
+                     <li class="submenu">
+                       <a href="#">  <span class="icon-rocket"></span>Villa Tunari <span class="caret icon-arrow-down6"></span></a>
+                      <ul class="children">
+                        <li><a href="Mirador/">Visita al Mirador <span class="icon-dot"></span></a></li>
+                      </ul>
+                      </li>
                   </ul>
               </li>
               <li><a href="Contactos">Contactos</a></li>
@@ -49,13 +70,15 @@
       
           <h2>DASER-GuiaTuristica</h2>        
      
-       <div class="style1 right">
+       <div class="style1 right wrapper">
        <h3>Copacabana</h3>
        <p>Copacabana es una pequeña ciudad y un municipio de Bolivia y una de las principales localidades ribereñas del lago Titicaca. Es la capital de la provincia de Manco Kapac, ubicada en el departamento de La Paz.<br> Está ubicada a 155 km de la ciudad de La Paz. <br>Es un centro de peregrinación por hallarse en la misma la imagen de la Virgen de Copacabana, la advocación mariana más extendida en Bolivia.<br></p>
-       <img src="imagenes/1.jpg" alt="Copacabanaa"/>
+       
+       <img src="imagenes/1.jpg" alt="Copacabanaa" width="400" height="250"/>
+      
        <h3>Villa Tunari</h3>
        <p>Villa Tunari pertenece al trópico cochabambino, ubicado entre los andes y la amazonía. Este territorio ofrece increíbles paisajes, provistos de una exuberante vegetación y una hidrografía abundante en ríos, arroyos, caídas de agua y pozas naturales.<br></p>
-       <img src="imagenes/villa-tunari.jpg" alt="Villa Tunari"/>
+       <img src="imagenes/villa-tunari.jpg" alt="Villa Tunari" width="400" height="250"/>
     
     </div>
     
