@@ -7,7 +7,7 @@ div{
     padding: 0;
 }
 body{
-    background: #feae78;
+    background: #dd884f;
 }
 header .encabezado
 {
@@ -26,6 +26,7 @@ header{
     margin: auto;
     overflow: hidden;
 }
+
 
 header nav{
     float: right;

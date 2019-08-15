@@ -1,9 +1,6 @@
 @media screen and (max-width: 800px)
 {
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
 	background: #feae80;
 	font-size: 80%;
