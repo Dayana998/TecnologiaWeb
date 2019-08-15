@@ -1,3 +1,7 @@
+div{
+	max-width: 800px;
+	min-width: 300px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +9,10 @@
 body{
     background: #feae78;
 }
-header .encabezado div
+header .encabezado
 {
-    display: inline-block;
+	display: inline-block;
+	color: blanchedalmond;
 }
 header{
     width: 100%;
@@ -22,23 +27,6 @@ header{
     overflow: hidden;
 }
 
-header .titulo{
-    color: blanchedalmond;
-    font-size: 1rem;
-    margin-top: 50px;
-    padding: 2em;
-    line-height: 0.5rem;
-    float: center;
-}
-header .subtitulo
-{
-	color: blanchedalmond;
-	font-size: 1rem;
-	margin-top: 50px;
-    padding: 2em;
-    line-height: 0.5rem;
-    float: center;
-}
 header nav{
     float: right;
 }
