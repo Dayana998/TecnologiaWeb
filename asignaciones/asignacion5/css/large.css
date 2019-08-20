@@ -4,6 +4,9 @@ body {
   .navigation li:first-child {
     display: none;
   }
+  .encabezado{
+    color:#500450;
+  }
   ul {
       font-size: 18px;
       font-family: cursive;
@@ -62,6 +65,8 @@ body {
     }
   
     h2{
+      width: 20%;
+      margin-right: 0%;
       margin-bottom: 0%;
       font-size: 35px;
       text-align: center;
