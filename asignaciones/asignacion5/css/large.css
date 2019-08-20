@@ -14,7 +14,7 @@ body {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #000000;
+      background-color: #cb0252;
     }
     
     li {
@@ -36,7 +36,7 @@ body {
     /* Change the link color to #111 (black) on hover */
     li a:hover {
       background-color: #cdbace;
-      color: #000000;
+      color: #6d084b;
       
     }
   
@@ -65,18 +65,18 @@ body {
     }
   
     h2{
-      width: 20%;
-      margin-right: 0%;
+      width: 40%;
+      margin-right: 1em;
       margin-bottom: 0%;
       font-size: 35px;
       text-align: center;
-      background-color: #aa0b9da9;
+      background-color: #5e0656a9;
       padding: 3px;
     }
   
     footer {
       background-color: #cb0252;      
-      color: #f0e6df;
+      color: #e0bca2;
       text-align: center;
     }
   
