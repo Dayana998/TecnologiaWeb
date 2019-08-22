@@ -1,0 +1,80 @@
+body{
+	background: #e0bca2;
+}
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #500450;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #e0bca2;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #cb0252;
+	background-color: #fff;
+	font-weight: 700;
+}
+fieldset{
+	width: 70%;
+	background: #cb0252;
+	margin: 80px auto;
+	padding: 20px;
+	border-radius: 5px ;
+	border: 2px solid #500450;
+}
+form input{
+	display: block;
+	width: 95%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px 5px solid #7d3380;
+	font-family: cursive;
+	font-size: 16px;
+}
+form textarea{
+
+	min-height: 100px;
+	max-height: 200px;
+	min-width: 60%;
+	max-width: 80%;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #e0bca2;
+	}
+}
