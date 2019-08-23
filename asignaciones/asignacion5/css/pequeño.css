@@ -3,16 +3,7 @@
         background: #faf0ea;
         font-family: cursive;
       }
-    section img {
-        float: left;
-        display : block;
-        width: 100%;
-    }
-    section #img1 {
-        float: right;
-        display : block;
-        width: 100%;
-    }
+    
     section{
 
         width: 100%;

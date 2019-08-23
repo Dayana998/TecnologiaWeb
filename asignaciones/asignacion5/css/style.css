@@ -26,6 +26,16 @@ nav {
 	background-color: #fff;
 	font-weight: 700;
 }
+section img {
+	float: left;
+	display : block;
+	width: 100%;
+}
+section #img1 {
+	float: right;
+	display : block;
+	width: 100%;
+}
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
   <ul class="navigation responsive">
