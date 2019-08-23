@@ -3,7 +3,12 @@
         background: #faf0ea;
         font-family: cursive;
       }
-    
+    section img {
+        float: left;
+        display : block;
+        width: 100%;
+    }
+   
     section{
 
         width: 100%;
@@ -16,14 +21,7 @@
         font-size: 13px;
         text-align: center;
     }
-    section #p1{
-        float: right;
-        display: block;
-        width: 100%;
-        padding: 1%;
-        font-size: 13px;
-        text-align: center;
-    }
+    
     h2 {
         width: 100%;
         font-size: 18px;
