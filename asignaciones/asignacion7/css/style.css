@@ -30,12 +30,15 @@ nav {
 	font-weight: 700;
 }
 fieldset{
-	width: 70%;
+	width: 760px;
 	background: #cb0252;
 	margin: 80px auto;
 	padding: 20px;
 	border-radius: 5px ;
 	border: 2px solid #500450;
+}
+h2{
+	text-align: center;
 }
 form input{
 	display: block;
