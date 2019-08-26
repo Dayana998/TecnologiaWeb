@@ -1,0 +1,51 @@
+{
+    "lugares" : [
+    {
+      "nombre": "Copacabana",
+      "ciudad": "La Paz",
+      "pais": "Bolivia",
+      "ubicacion": "Copacabana está ubicada a 150 km. de La Paz",
+      "historia":"Copacabana es una pequeña ciudad y un municipio de Bolivia y una de las principales localidades ribereñas del lago Titicaca. Es la capital de la provincia de Manco Kapac, ubicada en el departamento de La Paz.",
+      "AtractivosTuristicos" : [
+        "Isla Flotante",
+        "Basilica",
+        "Cerro del Calvario"      
+      ],
+      "gastronomia" : [
+        {
+            "nombre":"Trucha",
+            "descripcion":"Consta de una pieza de pescado con su porcion de arroz, papa frita y ensalada"
+        }  
+      ],
+      "festividades" : [
+        "Festividad de la Candelaria",
+        "Año Nuevo Aymara",
+        "Koya Raymi"
+      ]
+    }
+,
+    {
+        "nombre": "Villa Tunari",
+        "ciudad": "Chapare",
+        "pais": "Bolivia",
+        "ubicacion": "Noreste, en la provincia del Chapare, Cochabamba.",
+        "historia":"Villa Tunari es una población pequeña rodeada de increíbles paisajes, provistos de una exuberante vegetación y una hidrografía abundante en ríos, arroyos, caídas de agua y pozas naturales.",
+        "AtractivosTuristicos" : [
+          "Parque Isiboro Sécure",
+          "Parque Nacional Carrasco",
+          "Cavernas del Repechón",
+          "Parque Machía"      
+        ],
+        "gastronomia" : [
+          {
+              "nombre":"Tambaqui",
+              "descripcion":"Consta de una pieza de pescado con su porcion de yuca y su ensalada"
+          }  
+        ],
+        "festividades" : [
+          "Festividad de Año Nuevo"      
+        ]
+      }
+ 
+    ]
+}
