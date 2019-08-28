@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/mediumcss">
+    <link rel="stylesheet" href="css/pequeño.css">
+    <title>DASER - Guia Turistica</title>
+</head>
+<body>
+
+    <header>
+        
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><img src="imagenes/AA.png" alt="logo" width="200"></li>
+                    <li><a href="">Copacabana</a></li>
+                    <li><a href="">Villa Tunari</a></li>
+                    <li><a href="#">Actividades</a></li>
+                    <li><a href="#">Clima</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+    </header>
+    <h3>BOLIVIA UN LUGAR DE ENSUEÑO PARA VISITAR</h1>
+    <main>
+       
+        <section>
+          
+            <div><img src="imagenes/bolivia-6-maravillas-naturales-para-hacer-turismo-678856.jpg" alt="Copacabana" width="100"></div>
+            <div><p>La belleza natural de Bolivia es irreal e inagotable, con lugares de ensueño que encantan a los visitantes.<br>
+              La riqueza geográfica hace a Bolivia poseedora de algunos de los paisajes más increíbles del mundo.<br/>
+           
+        </p></div>
+            
+        </section>
+        <br>
+        <h2 id="copa"></h2>
+        <section>
+
+            <div><img src="imagenes/copa.jpg" alt="Parque"></div>
+            <div>
+                <p id="copa1"></p>
+                <br/>
+                <p id="copa2"></p>
+                <br/>
+                <p id="copa3"></p>
+                <br/>
+                <p id="copa4"></p>
+               
+            </div>
+
+        </section>
+        <br>
+        <h2 id="villa"></h2>
+        <section>
+
+            <div><img src="imagenes/machia.jpg" alt="Copacabana" ></div>
+            <div>
+                    <p id="villa1"></p>
+                    <br/>
+                    <p id="villa2"></p>
+                    <br/>
+                    <p id="villa3"></p>
+                    <br/>
+                    <p id="villa4"></p>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p> DASER - Guia Turistica &#174; 2019|  | Derechos reservados.  </p>
+        <script src="js/footer.js">  
+        </script>
+    </footer>
+   <script src="js/menu.js"></script>
+   <script>
+    var requestURL = 'https://dayana998.github.io/TecnologiaWeb/asignaciones/asignacion9/place.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+    var localidad = request.response;
+    mostrarlocalidades(localidad);
+    }
+    function mostrarlocalidades(jsonObj){
+        var local=jsonObj['lugares'];
+        document.getElementById('copa').innerHTML=local[0].nombre;
+        document.getElementById('copa1').innerHTML=local[0].ciudad;
+        document.getElementById('copa2').innerHTML=local[0].pais;
+        document.getElementById('copa3').innerHTML=local[0].ubicacion;
+        document.getElementById('copa4').innerHTML=local[0].historia;
+      
+        document.getElementById('villa').innerHTML=local[1].nombre;
+        document.getElementById('villa1').innerHTML=local[1].ciudad;
+        document.getElementById('villa2').innerHTML=local[1].pais;
+        document.getElementById('villa3').innerHTML=local[1].ubicacion;
+        document.getElementById('villa4').innerHTML=local[1].historia;
+    }
+   </script>
+</body>
+</html>
