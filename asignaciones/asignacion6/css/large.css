@@ -1,25 +1,9 @@
 body {
-  
-  font-family: cursive; 
+  font-family: cursive;
 }
 .navigation li:first-child {
   display: none;
-  
 }
-
-h3{
-  font-size: 50px;
-  text-align: center;
-}
-
-.fondo1
-{
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 3px;
-  border: 6px solid #feae78 ;
-}
-
 ul {
     font-size: 18px;
     font-family: cursive;
@@ -32,38 +16,24 @@ ul {
   
   li {
     float: left;
-    margin-left: 20px;
     align-self: center;
   }
-  h1
-  {
-    text-align: center;
-    font-family: cursive;
-    font-size: 60px;
-    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .logo
-  {
-    margin-left: 0px;
-    margin-top: 0px;
-  }
+  
   li a {
     align-self: center;
     display: block;
-    color: #feae78;
+    color: white;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 14px 16px;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 50px;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #cb0252;
-    color: #500450;
+    background-color: #ffcf3d;
+    color: #000000;
     
   }
 
@@ -71,71 +41,55 @@ ul {
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 1%;
-    width: 95%;
+    background-color: #F2F2F2;
+    width: 100%;
     display: inline-block;
-    background-color: #cb0252;
-  
-  }
-  main
-  {
-    background-color: #000000;
   }
   div img{
     display: block;
     float: left;
-    width: 40%;
-    padding-left: 70px;
-    padding-top: 3.5%;
+    width: 45%;
   }
 
   div p {
     font-size: 20px;
-    padding-top: 2%;
-    margin-right: 7%;
-    text-align: justify;
+    padding-top: 8%;
+    margin-right: 5%;
     float: right;
     display:  block;
     width: 45%;
-    
   }
 
   h2{
-    margin-bottom: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-bottom: 0%;
     font-size: 35px;
     text-align: center;
-    background-color: #feae78;
+    background-color: #ffcf3d;
     padding: 3px;
   }
   figure{
   display: block;
   }
-
   .container {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-   
   }
   .container img {
     width: 100%;
     padding-bottom: 5px;
     -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    padding-left: 30px;
+	  transition: all 0.5s;
   }
   .container img:hover{
-    -webkit-transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;
+    -webkit-transform: scale(1.15);
+	  -ms-transform: scale(1.15);
+	  transform: scale(1.15);
 
   }
-
   footer {
-    background-color:#500450;
+    background-color: #000000;
     color: #F2F2F2;
     text-align: center;
   }
