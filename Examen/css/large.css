@@ -1,3 +1,110 @@
-article{
-    background: rgb(4, 175, 243);
+@media only screen and ( min-width: 40em) 
+{
+.logo
+{
+    padding-right: 10em;
 }
+li:first-child { 
+    display: none;
+	}
+li { 
+    display: inline-block; 
+    margin-right: 1rem;
+}	
+li a {
+    color:#0A0A0A;}
+}
+
+header nav {
+    width: 60%;
+    margin: 0 auto;	
+    max-width: 100%; 
+    background-color: #898989;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    }
+    
+nav { 
+        display: block; 
+        flex: 2em 2rem auto;
+     }
+.navigation a:first-child{
+    display: none;
+}
+.navigation a{
+    display: inline-block;
+    margin: 6px;
+    text-decoration: none;
+    color: #0A0A0A;
+}
+
+body,p{
+
+     font-size: 1.3rem;
+     color:#0f0f0f;
+            }
+main {
+    width:200px;
+    max-width:700px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    }
+h1,h2{ 
+    font-size: 2rem;
+    float: center;
+} 
+h3,h4,h6{
+    font-size: 2rem;
+    text-align: Center;	
+    }
+
+ .contact a img{
+    float: left;
+    width:80%;
+    margin:2em; 
+        }
+
+.container_home {
+    width:60%;
+    height: 40%;
+    margin-left: 20%;
+    display:flex;
+    flex-direction: row;
+    background: #850574;
+}
+
+.information{
+    display:block; 
+    background: #898989; 
+    padding: 1em 3.5em;
+}
+                
+.post img{
+   float: right;
+   width:50%; 
+   margin:1em;
+}
+footer {
+    background-color:#500450;
+    color: #F2F2F2;
+    text-align: center;
+  }
+  div img{
+    display: block;
+    float: right;
+    width: 90%;
+    padding-left: 70px;
+    padding-top: 3.5%;
+  }
+  div p {
+    font-size: 20px;
+    padding-top: 2%;
+    margin-right: 7%;
+    text-align: justify;
+    float: right;
+    display:  block;
+    width: 45%;
+    
+  }
