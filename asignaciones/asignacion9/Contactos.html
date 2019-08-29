@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>DASER-GuiaTuristica</title>
+  <link rel="stylesheet" href="css/medium.css"> 
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <meta name="description" content="Guia turistica de Copacabana y Villa Tunari de Bolivia">
+  
+</head>
+<body>
+    <header>
+          <nav>
+              <ul class="navigation">
+                  <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                  <li><img href="fin.html"class="logo" src="imagenes/logo.jpg" alt="logo"></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Copacabana</a></li>
+                  <li><a href="#">Villa Tunari</a></li>
+                  <li><a href="#">Reservas</a></li>
+                  <li><a href="#">Actividades</a></li>
+                  <li><a href="#">Clima</a></li>
+                  <li><a href="#">Contactos</a></li>
+          </ul>
+          </nav>
+        
+        <main>
+            <h1> Formulario de Contacto </h1>
+            <form method="GET" action="contacto.html">
+                <fieldset>
+                    <legend>Informacion: </legend>
+                    <label>Nombre Completo: <input type="text" name="name" pattern="[A-Za-z].{5,}"></label>
+                    <label>E-mail: <input type="email" name="email" placeholder="example@gmail.com"></label>
+                    <label>Telefono: <input type="tel" name="phone" placeholder="###-###-####"></label>
+                    <label>Fecha: <input type="date" name="date"></label>
+                    <label>Tipo de Usuario
+                        <input list="typeUsr" name="typeUser">
+                        <details id="typeuser">
+                            <option value="Turista Nacional">
+                            <option value="Turista Extranjero">
+                            <option value="Turista ">
+                        </details>
+
+                    </label>
+                    <label>Lugar del que requiere mas Informacion
+                        <select name="place">
+                                <option value="">Seleccione Lugar</option>
+                                <option value="Copacabana">Copacabana</option>
+                                <option value="Villa Tunari">Villa Tunari</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Sexo: <em>(Seleccione uno)</em></legend>
+                    <label><input type="radio" name="sexo" value="F" >Femenino </label>
+                    <label><input type="radio" name="sexo" value="M" >Masculino </label>
+                </fieldset>
+                <input id="send" type="submit" value="Enviar">
+            </form>
+        </main>
+        <footer>
+                <p> DASER - Guia Turistica &#174; 2019|  | Derechos reservados.  </p>
+                <script src="js/footer.js">  
+                </script>
+                <a href="# "><img src="imagenes/facebook.png" alt="Icono Facebook " width="30px"></a>
+                <a href="# "><img src="imagenes/instagram.png" alt="Icono Instagram " width="30px"></a>
+                <a href="# "><img src="imagenes/twitter.png" alt="Icono Twitter " width="30px"></a>
+            
+            </footer>
+    </header>
+     </body>
+     </html>
