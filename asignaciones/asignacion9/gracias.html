@@ -18,8 +18,8 @@
                   <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
                   <li><img class="logo" src="imagenes/logo.jpg" alt="logo"></li>
                   <li><a href="fin.html">Home</a></li>
-                  <li><a href="#">Copacabana</a></li>
-                  <li><a href="#">Villa Tunari</a></li>
+                  <li><a href="galeria.html">Copacabana</a></li>
+                  <li><a href="galeria1.html">Villa Tunari</a></li>
                   <li><a href="reservas.html">Reservas</a></li>
                   <li><a href="clima.html">Clima</a></li>
                   <li><a href="Contactos.html">Contactos</a></li>
@@ -28,7 +28,7 @@
      </header>   
         <main>
             
-            <form method="GET" action="contacto.html">
+            <form method="GET" action="reser.html">
                 <fieldset>
                     <legend>Informacion: </legend>
                     <label>Nombre Completo: <input type="text" name="name" pattern="[A-Za-z].{5,}"></label>
@@ -49,13 +49,10 @@
                                 <option value="Villa Tunari">habitacion con balcon</option>
                         </select>
                     </label>
+                   
                 </fieldset>
-                <fieldset>
-                    <legend>Sexo: <em>(Seleccione uno)</em></legend>
-                    <label><input type="radio" name="sexo" value="F" >Femenino </label>
-                    <label><input type="radio" name="sexo" value="M" >Masculino </label>
-                </fieldset>
-                <button  class="btnreserva" onclick="window.location.href='reser.html'">Reservar</button>
+                
+                <input id="send" type="submit" value="Enviar"></a>
             </form>
         </main>
         <footer>
