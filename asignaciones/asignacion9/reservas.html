@@ -47,7 +47,7 @@
                                 <p>Costo por dia:240bs --> 2 huespedes Wifi Gratuito Desayuno gratuito</p>
                                 <p>Costo por dia:350bs --> 3 huespedes Wifi Gratuito Desayuno gratuito</p>
                                 <p>Costo por dia:380bs --> 3 huespedes Wifi Gratuito Desayuno gratuito habitacion con balcon</p>
-                                <button class="btnreserva" onclick="verinfo1();">Reservar</button>
+                                <button  class="btnreserva" onclick="window.location.href='gracias.html'">Reservar</button>
                             </article>
                             
             </section>
@@ -68,7 +68,7 @@
                                     <p>Costo por dia:240bs --> 2 huespedes Wifi Gratuito Desayuno gratuito</p>
                                     <p>Costo por dia:350bs --> 3 huespedes Wifi Gratuito Desayuno gratuito</p>
                                     <p>Costo por dia:380bs --> 3 huespedes Wifi Gratuito Desayuno gratuito habitacion con balcon</p>
-                                    <button class="btnreserva" onclick="verinfo1();">Reservar</button>
+                                    <button  class="btnreserva" onclick="window.location.href='gracias.html'">Reservar</button>
                                 </article>
             </section>
         </main>
@@ -83,119 +83,7 @@
             
             </footer>
            <script src="js/menu.js"></script>
-           <div id="infohotel1">
-            <a href="#" id="salir1"><img src="imagenes/cerrar.png" alt=""></a>
-            <h1>Hotel Estelar Copacabana</h1>
-        <form id="reserva1" method="post" autocomplete="off">
-            <table>
-                <tbody><tr>
-                    <td>Nombre Completo: </td>
-                    <td><input type="text" size="35"></td>
-                </tr>
-                <tr>
-                    <td>Tipo de Habitacion</td>
-                    <td>
-                        <select>
-                                <option>Seleccione</option>
-                                <option>Basico - 240 Bs</option>
-                                <option>Mediano - 350 Bs</option>
-                                <option>Premium - 380 Bs</option>
-                            </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Numero de Tarjeta</td>
-                    <td><input type="text"></td>
-                    
-                </tr>
-                <tr>
-                    <td>Celular: </td>
-                    <td><input type="tel"></td>
-                </tr>
-                <tr>
-                    <td>Correo: </td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Dias de Estadia: </td>
-                    <td><input type="number"></td>
-                </tr>
-                <tr>
-                    <td><button onclick="gracia.html">Realizar Reserva</button></td>
-                </tr>
-            </tbody></table>
-        </form>
-        <div id="infohotel2">
-            <a href="#" id="salir2"><img src="imagenes/cerrar.png" alt=""></a>
-            <h1>Hotel Las Cabañas Villa Tunari</h1>
-            <form id="reserva2" method="post" autocomplete="off">
-                <table>
-                    <tr>
-                        <td>Nombre Completo: </td>
-                        <td><input class="txtnombre" type="text"></td>
-                    </tr>
-                    <tr>
-                        <td>Tipo de Habitacion</td>
-                        <td>
-                            <select>
-                                            <option>Seleccione</option>
-                                            <option>Basico - 240 Bs</option>
-                                            <option>Mediano - 350 Bs</option>
-                                            <option>Premium - 3800 Bs</option>
-                                        </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Numero de Tarjeta</td>
-                        <td><input type="text"></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>Celular: </td>
-                        <td><input type="tel"></td>
-                    </tr>
-                    <tr>
-                        <td>Correo: </td>
-                        <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                        <td>Dias de Estadia: </td>
-                        <td><input type="number"></td>
-                    </tr>
-                    <tr>
-                        <td><button>Realizar Reserva</button></td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-        <script type="text/javascript">
-            $('#infohotel1').hide();
-    
-            function verinfor1() {
-                $('#infohotel1').show('slow');
-                $('html, body').animate({
-                    scrollTop: 0
-                }, 'slow');
-                return false;
-            }
-            $('#salir1').click(function() {
-                $('#infohotel1').hide('slow');
-            });
-            /*DIV2*/
-            $('#infohotel2').hide();
-    
-            function verinfor2() {
-                $('#infohotel2').show('slow');
-                $('html, body').animate({
-                    scrollTop: 0
-                }, 'slow');
-                return false;
-            };
-            $('#salir2').click(function() {
-                $('#infohotel2').hide('slow');
-            });
-            
-        </script>
+          
                 
 </body>
 </html>
