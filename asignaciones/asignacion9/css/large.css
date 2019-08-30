@@ -79,7 +79,7 @@ ul {
 }
 .slider img{
   width: 100%;
-  float: center;
+  float: right;
 
 }
 .slider ul{
@@ -96,8 +96,8 @@ ul {
 
 }
 @keyframes cambio{
-    0% { margin-left: 2;}
-    20%{ margin-right: 2;}
+    0% { margin-left: 2em;}
+    20%{ margin-right: 2em;}
 
     25%{margin-right: -100%;}
     45% {margin-left: -100%;}
