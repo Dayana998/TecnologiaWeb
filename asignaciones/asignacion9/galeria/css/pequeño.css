@@ -3,10 +3,9 @@
         font-family: cursive;
       }
     section img {
-        display : flex;
-        justify-content: center;
-        align-self: center;
-        width: 62%;
+        float: left;
+        display : block;
+        width: 100%;
     }
     section{
 
@@ -15,12 +14,13 @@
    section p{
         float: left;
         display: block;
-        width: 97%;
+        width: 100%;
         padding: 1%;
         font-size: 13px;
         text-align: center;
     }
     h2 {
+        width: 100%;
         font-size: 18px;
     }
 
@@ -37,6 +37,7 @@
         text-align: center;
         padding: 0;
     }
+
     .navigation li:first-child {
         display: block;
     }
@@ -48,15 +49,15 @@
     }
     .navigation a {
         align-self: center;
-        flex-flow: column;
-        color: #feae78;
+        flex-direction: column;
+        color: #fff;
         padding: 0.75rem;
         text-align: center;
         text-decoration: none;
     }
     .navigation a:hover {
         color: #000;
-        background-color: #fa8c42;
+        background-color: #fff;
         font-weight: 700;
     }
     
@@ -65,13 +66,5 @@
       */
     .responsive li {
         display: block;
-    }
-    #contform{
-        font-size: 15px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    #contform input {
-        width:80%;
     }
   }

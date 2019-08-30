@@ -8,7 +8,8 @@ fieldset{
 	padding: 20px;
 	border-radius: 5px ;
 	border: 2px solid #500450;
-	margin-top: 1px;
+  margin-top: 1px;
+  color: #feae78;
 }
 
 #send{
@@ -182,3 +183,70 @@ ul {
     color: #F2F2F2;
     text-align: center;
   }
+
+
+  #reserva1,
+#reserva2 {
+    display: flex;
+    padding: 40px;
+    font-size: 15px;
+    width: 100%;
+}
+.btnreserva{
+  width: 20%;
+}
+#reserva1 input,
+select,
+button,
+#reserva2 input,
+select,
+button {
+    margin: 8px;
+    width: 100%;
+}
+  #infohotel1,
+  #infohotel2 {
+      z-index: 99;
+      width: 80%;
+      position: absolute;
+      left: 10%;
+      top: 10%;
+      transform-origin: translate(-50%, -50%);
+      background: white;
+      border: 5px black solid;
+  }
+  
+  #infohotel1 h1,
+  #infohotel2 h1 {
+      text-align: center;
+  }
+  
+  #infohotel1 img,
+  #infohotel2 img {
+      width: 50px;
+      float: right;
+      z-index: 99;
+      margin: 5px;
+  }
+  @media screen and (max-width:468px) {
+    #reserva1 input,
+    select,
+    button,
+    #reserva2 input,
+    select,
+    button
+    {
+        float: left;
+        width: 100%;
+    }
+    #infohotel1,
+    #infohotel2 {
+        left: 1%;
+        top: 1%;
+        height: 650px;
+    }
+    
+    table td {
+        display: block;
+    }
+}

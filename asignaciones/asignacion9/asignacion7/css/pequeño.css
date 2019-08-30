@@ -49,14 +49,14 @@
     .navigation a {
         align-self: center;
         flex-flow: column;
-        color: #feae78;
+        color: #fff;
         padding: 0.75rem;
         text-align: center;
         text-decoration: none;
     }
     .navigation a:hover {
         color: #000;
-        background-color: #fa8c42;
+        background-color: #fff;
         font-weight: 700;
     }
     

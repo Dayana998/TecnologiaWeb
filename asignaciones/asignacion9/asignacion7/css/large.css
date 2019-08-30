@@ -1,0 +1,131 @@
+
+body {
+  
+  font-family: cursive;  
+}
+.navigation li:first-child {
+  display: none;
+}
+.bol
+{
+  width: 140px;
+  padding-left: 40px;
+  padding-top: 29px;
+}
+.cbb
+{
+  width: 85px;
+}
+h3{
+  font-size: 50px;
+  text-align: center;
+}
+#subtitulo{
+  padding-bottom: 0%;
+}
+
+
+.fondo1
+{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3px;
+  border: 6px solid #feae78 ;
+}
+
+ul {
+    font-size: 18px;
+    font-family: cursive;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #500450;
+  }
+  
+  li {
+    float: left;
+    margin-left: 20px;
+    align-self: center;
+  }
+ 
+  li a {
+    align-self: center;
+    display: block;
+    color: #feae78;
+    text-align: center;
+    margin-top: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #cb0252;
+    
+    
+  }
+
+  section{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    width: 95%;
+    display: inline-block;
+    background-color: #c0c0c0;
+  
+  }
+  
+  
+  #climah{
+    background-image: none;
+  }
+  #backmain{
+    color: #F2F2F2;
+    text-shadow: 3px 4px #000000;
+  }
+  #teperatura{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 130px;
+  }
+
+  
+  figure{
+  display: block;
+  }
+
+  .container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+   
+  }
+  .container img {
+    width: 100%;
+    padding-bottom: 5px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding-left: 30px;
+  }
+  .container img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+
+  }
+  #footclim{
+    position: absolute;
+
+  }
+  footer {
+    background-color: #500450;
+    color: #F2F2F2;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+  }

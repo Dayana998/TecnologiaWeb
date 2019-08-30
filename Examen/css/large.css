@@ -1,5 +1,14 @@
 @media only screen and ( min-width: 40em) 
-{
+{body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
 .logo
 {
     padding-right: 10em;
@@ -39,14 +48,9 @@ nav {
     color: #0A0A0A;
 }
 
-body,p{
 
-     font-size: 1.3rem;
-     color:#0f0f0f;
-            }
 main {
-    width:200px;
-    max-width:700px;
+    width:75%;
     margin-left: 20%;
     margin-right: 20%;
 
@@ -55,21 +59,45 @@ h1,h2{
     font-size: 2rem;
     float: center;
 } 
-h3,h4,h6{
+h4,h6{
     font-size: 2rem;
     text-align: Center;	
     }
 
- .contact a img{
-    float: left;
-    width:80%;
-    margin:2em; 
-        }
+}
+.contact{
+  background-color: rgb(175, 23, 130);  
+  padding: 30px 40px 15px 20px;  
+  color: rgb(19, 20, 20);
+  margin-bottom: 40px;
+  display:flex;
+  justify-content: space-around;
+}
+#divcont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+h3{
+    width: 100%;
+    text-align: center;
+}
+hr { 
+    margin-top: 0px;
+    padding-top: 0px;
+  width: 450px;
+  background-color: #828282;
+}
+#pcon{
+    text-align: start;
+    float: right;
+}
 
 .container_home {
     width:60%;
     height: 40%;
-    margin-left: 20%;
+    margin-left: 30%;
     display:flex;
     flex-direction: row;
     background: #850574;
@@ -80,31 +108,35 @@ h3,h4,h6{
     background: #898989; 
     padding: 1em 3.5em;
 }
-                
+#table2 {
+    width: 700px;
+    height: 150px;
+}
+#articulo{
+    background-color: #57D7E1;  
+    padding: 30px 40px 15px 20px;  
+    color: #2D5680;
+    margin-bottom: 40px;
+}
+#divart{
+  display: flex;
+  flex-direction: row-reverse;
+  
+
+}
+#part{
+    width: 350px;
+    padding-right: 10px;
+    text-align: justify;
+}            
 .post img{
    float: right;
    width:50%; 
    margin:1em;
 }
+
 footer {
     background-color:#500450;
     color: #F2F2F2;
     text-align: center;
-  }
-  div img{
-    display: block;
-    float: right;
-    width: 90%;
-    padding-left: 70px;
-    padding-top: 3.5%;
-  }
-  div p {
-    font-size: 20px;
-    padding-top: 2%;
-    margin-right: 7%;
-    text-align: justify;
-    float: right;
-    display:  block;
-    width: 45%;
-    
   }
